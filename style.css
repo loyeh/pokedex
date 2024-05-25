@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* height: 100dvh; */
+  background: linear-gradient(to right, #dc84ff, #ffc881);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 180px;
+  background-color: #61c947;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px #00000055;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffffaa;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image img {
+  width: 120%;
+  height: 120%;
+}
+
+.number {
+  background-color: #00000033;
+  font-size: 12px;
+  padding: 1px 3px;
+  border-radius: 5px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 3px;
+}
+
+.type {
+  font-size: 12px;
+}
+
+.card.grass {
+  background-color: greenyellow;
+}
+
+.card.normal {
+  background-color: gray;
+}
+
+.card.fighting {
+  background-color: salmon;
+}
+
+.card.flying {
+  background-color: skyblue;
+}
+
+.card.poison {
+  background-color: tan;
+}
+
+.card.ground {
+  background-color: brown;
+}
+
+.card.rock {
+  background-color: cadetblue;
+}
+
+.card.bug {
+  background-color: darkgoldenrod;
+}
+
+.card.ghost {
+  background-color: darkseagreen;
+}
+
+.card.steel {
+  background-color: silver;
+}
+
+.card.fire {
+  background-color: orange;
+}
+
+.card.water {
+  background-color: aqua;
+}
+
+.card.electric {
+  background-color: lightblue;
+}
+
+.card.psychic {
+  background-color: coral;
+}
+
+.card.ice {
+  background-color: dodgerblue;
+}
+
+.card.dragon {
+  background-color: chocolate;
+}
+
+.card.dark {
+  background-color: lightslategrey;
+}
+
+.card.fairy {
+  background-color: bisque;
+}
+
+.card.stellar {
+  background-color: darkcyan;
+}
