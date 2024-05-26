@@ -30,4 +30,4 @@ async function pokemons(num) {
   }
 }
 
-pokemons(1000);
+pokemons(200);
